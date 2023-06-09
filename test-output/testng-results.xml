@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-04T17:51:20 IST" name="Suite" finished-at="2023-06-04T17:51:39 IST" duration-ms="18927">
+    <groups>
+    </groups>
+    <test started-at="2023-06-04T17:51:20 IST" name="Test" finished-at="2023-06-04T17:51:39 IST" duration-ms="18927">
+      <class name="Tests_Pack.OneTest">
+        <test-method signature="testOne()[pri:0, instance:Tests_Pack.OneTest@e350b40]" started-at="2023-06-04T17:51:39 IST" name="testOne" finished-at="2023-06-04T17:51:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+      </class> <!-- Tests_Pack.OneTest -->
+      <class name="Tests_Pack.ThreeTest">
+        <test-method signature="testThree()[pri:0, instance:Tests_Pack.ThreeTest@82de64a]" started-at="2023-06-04T17:51:20 IST" name="testThree" finished-at="2023-06-04T17:51:20 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+      </class> <!-- Tests_Pack.ThreeTest -->
+      <class name="Tests_Pack.LoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:Tests_Pack.LoginTest@7db12bb6]" started-at="2023-06-04T17:51:20 IST" name="openApplication" finished-at="2023-06-04T17:51:24 IST" duration-ms="3691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests_Pack.LoginTest@7db12bb6]" started-at="2023-06-04T17:51:24 IST" name="Login" data-provider="getLoginData" finished-at="2023-06-04T17:51:27 IST" duration-ms="3823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successfull]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:Tests_Pack.LoginTest@7db12bb6]" started-at="2023-06-04T17:51:27 IST" name="closingbrowser" finished-at="2023-06-04T17:51:28 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:Tests_Pack.LoginTest@7db12bb6]" started-at="2023-06-04T17:51:28 IST" name="openApplication" finished-at="2023-06-04T17:51:30 IST" duration-ms="2522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests_Pack.LoginTest@7db12bb6]" started-at="2023-06-04T17:51:30 IST" name="Login" data-provider="getLoginData" finished-at="2023-06-04T17:51:39 IST" duration-ms="8670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:Tests_Pack.LoginTest@7db12bb6]" started-at="2023-06-04T17:51:39 IST" name="closingbrowser" finished-at="2023-06-04T17:51:39 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- Tests_Pack.LoginTest -->
+      <class name="Tests_Pack.TwoTest">
+        <test-method signature="testTwo()[pri:0, instance:Tests_Pack.TwoTest@41a0aa7d]" started-at="2023-06-04T17:51:39 IST" name="testTwo" finished-at="2023-06-04T17:51:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- Tests_Pack.TwoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
